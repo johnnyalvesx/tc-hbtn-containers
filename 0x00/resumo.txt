@@ -1,0 +1,83 @@
+O que são contêineres?
+Os Contêiners permitem que um aplicativo/aplicações seja executado de forma consistente e 
+confiável, independentemente do sistema operacional ou do ambiente de infraestrutura. 
+Os contêineres fazem isso agregando tudo o que um serviço precisa para ser executado 
+— código, tempo de execução, ferramentas do sistema, bibliotecas e configurações —, 
+criando um pacote portátil, autônomo e executável.
+
+Para que se usa um contêiner?
+Os contêineres representam o futuro da computação, juntamente com tecnologias como DevOps, 
+nativo da nuvem, IA e machine learning. Os casos de uso comuns incluem:
+- Modernizar aplicativos existentes na nuvem;
+- Criar novos aplicativos que maximizem os benefícios dos contêineres;
+- Isolar, implantar, dimensionar e oferecer suporte a microsserviços e aplicativos distribuídos;
+- Potencializar a eficiência/eficácia do DevOps por meio de criação/teste/implantação simplificados;
+- Fornecer aos desenvolvedores ambientes de produção consistentes, isolados de outros aplicativos 
+e processos;
+- Simplificar e acelerar funções repetitivas;
+- Viabilizar ambientes de computação híbrida e multicloud, já que os contêineres podem ser 
+executados de forma consistente em qualquer lugar.
+
+Quais são os benefícios dos contêineres?
+- Contêineres são leves: como estão isolados da camada do SO, os contêineres são eficientes 
+e leves em recursos em comparação com as máquinas virtuais.
+- Contêineres são portáteis: como o contêiner inclui todas as dependências e configurações, 
+você pode escrever uma vez e mover entre ambientes.
+- Contêineres são escaláveis: devido ao tamanho pequeno, os contêineres são ativados rapidamente, 
+dimensionados em tempo real, desativados quando não estão em uso e reiniciados com agilidade 
+quando necessário.
+- Contêineres podem ser econômicos: por meio de menor demanda de recursos e dimensionamento 
+inteligente, os contêineres oferecem uma solução resiliente, ágil e econômica.
+- Contêineres exigem que você gerencie menos infraestrutura: os contêineres forçam você a 
+chegar à essência do que realmente precisa para oferecer uma experiência que melhor atenda 
+aos clientes. Isso facilita o gerenciamento da infraestrutura, pois há menos infraestrutura 
+para gerenciar.
+- Contêineres possibilitam foco: as equipes de TI gastarão menos tempo com sistemas operacionais 
+convidados e hardware físico, permitindo que se envolvam com projetos essenciais aos negócios.
+- Contêineres aceleram o desenvolvimento: os contêineres fornecem um ambiente estável e 
+previsível, no qual a CPU/memória é otimizada e o código é abstraído da infraestrutura 
+para gerar portabilidade.
+- Contêineres desbloqueiam a arquitetura moderna: usando contêineres, os desenvolvedores 
+conseguem acelerar o desenvolvimento ao dividir os aplicativos em microsserviços que, 
+quando implantados, podem ser dimensionados individualmente.
+
+Quais são os desafios dos contêineres?
+- Contêineres são relativamente novos: o Kubernetes foi lançado em 2014 e rapidamente ganhou 
+aceitação no mercado. O fato de ser uma "tecnologia em alta" pode tornar difícil encontrar 
+tecnólogos experientes que saibam trabalhar em ambientes conteinerizados.
+- Nem todos os serviços são conteinerizados: se o seu aplicativo depende de serviços que não 
+estão conteinerizados, talvez seja necessário investir pesado para transformá-lo numa 
+solução em contêiner.
+- Contêineres exigem mudanças no processo e nas habilidades: os contêineres podem acelerar 
+sua transição para um desenvolvimento mais ágil e eficiente, mas isso talvez signifique 
+mudanças importantes nos processos atuais de desenvolvimento, implantação, revisão e 
+monitoramento. Da mesma forma, as equipes existentes talvez precisem ser ajustadas e 
+retreinadas.
+- A tecnologia está evoluindo com velocidade: isso não é exclusivo para contêineres, 
+mas a natureza acelerada da tecnologia de contêineres significa que você precisa de pessoas 
+(ou parceiros) à mão para tomar decisões sólidas, reduzir riscos e garantir que a 
+implementação não seja obstruída pela inércia corporativa.
+- Contêineres não são uma solução mágica: faça uma lista de benefícios e os contêineres 
+talvez pareçam ideais, mas qualquer transição requer séria ponderação. Você deve entender 
+o que tem à mão para trabalhar, o que vai funcionar e o que não vai — ou encontrar alguém 
+para ajudá-lo a fazer isso.
+
+Quais as diferenças entre containers e máquinas virtuais (VMs) ?
+Tanto contêineres como máquinas virtuais são "pacotes". O contêiner é um pacote que inclui 
+seu aplicativo e tudo o que ele precisa para ser executado, exceto o sistema operacional. 
+A máquina virtual é um pacote que inclui seu aplicativo e tudo o que ele precisa ser executado, 
+incluindo o próprio sistema operacional.
+Você pode executar vários contêineres em um único sistema operacional. E pode executar várias 
+máquinas virtuais em um único hardware. Pode até executar contêineres em máquinas virtuais.
+Uma das principais vantagens dos contêineres em relação às máquinas virtuais é que, como não 
+incluem o sistema operacional, os contêineres exigem menos recursos do sistema e menor custo 
+computacional. Também tendem a ser mais rápidos para iniciar/parar e são ultraportáteis em 
+todos os ambientes. Mas eles ainda ocupam a capacidade da infraestrutura quando estão ociosos, 
+o que pode gerar custos desnecessários.
+
+Quais são as principais ferramentas e tecnologias de contêiner?
+Docker e Kubernetes são os grandes nomes na área de contêineres. O Docker é uma plataforma de 
+contêiner de código aberto. O Kubernetes é a opção mais popular para orquestração de 
+contêineres — embora existam alternativas como Docker Swarm e VMware Tanzu. Os principais 
+provedores de nuvem, como AWS, Google e Microsoft Azure, também oferecem produtos de contêiner 
+como serviço (CaaS).
