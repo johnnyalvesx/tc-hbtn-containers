@@ -81,3 +81,4 @@ contêiner de código aberto. O Kubernetes é a opção mais popular para orques
 contêineres — embora existam alternativas como Docker Swarm e VMware Tanzu. Os principais 
 provedores de nuvem, como AWS, Google e Microsoft Azure, também oferecem produtos de contêiner 
 como serviço (CaaS).
+Red Hat
